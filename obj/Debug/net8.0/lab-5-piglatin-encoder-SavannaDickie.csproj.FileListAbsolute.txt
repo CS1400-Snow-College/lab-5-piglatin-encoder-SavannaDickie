@@ -1,0 +1,15 @@
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/bin/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/bin/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.deps.json
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/bin/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.runtimeconfig.json
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/bin/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/bin/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.pdb
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.GeneratedMSBuildEditorConfig.editorconfig
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.AssemblyInfoInputs.cache
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.AssemblyInfo.cs
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.csproj.CoreCompileInputs.cache
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.sourcelink.json
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/refint/lab-5-piglatin-encoder-SavannaDickie.dll
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.pdb
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/lab-5-piglatin-encoder-SavannaDickie.genruntimeconfig.cache
+/Users/personal3/Downloads/code/mycodedir/lab-5-piglatin-encoder-SavannaDickie/obj/Debug/net8.0/ref/lab-5-piglatin-encoder-SavannaDickie.dll
