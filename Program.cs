@@ -48,6 +48,8 @@ foreach (string word in userMessageArray)
     pigLatinTranslate += pigLatinWord + " ";
 }
 Console.WriteLine(pigLatinTranslate.Trim());
+Random rand = new Random();
+int Offset = rand.Next(1,26);
 
 
 
