@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab-5-piglatin-encoder-SavannaDickie", "lab-5-piglatin-encoder-SavannaDickie.csproj", "{50273280-B428-4D59-800A-DF768AB591FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50273280-B428-4D59-800A-DF768AB591FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50273280-B428-4D59-800A-DF768AB591FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50273280-B428-4D59-800A-DF768AB591FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50273280-B428-4D59-800A-DF768AB591FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3262D44-078E-422B-B95E-72E71DA70818}
+	EndGlobalSection
+EndGlobal
