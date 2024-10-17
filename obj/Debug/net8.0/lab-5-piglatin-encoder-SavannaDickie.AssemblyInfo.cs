@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-5-piglatin-encoder-SavannaDickie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f39f6d3790827897446d49fc29f760b753cfc4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16b23a00adb78d888ac631af0a848e7fbe6698e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-5-piglatin-encoder-SavannaDickie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-5-piglatin-encoder-SavannaDickie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,23 +6,24 @@
 
 
 using System.Reflection.Metadata;
+using System.Reflection.PortableExecutable;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 
 char[] vowels = {'a','e','i','o','u'};
 //char[] consonants = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'};
-Console.WriteLine("Welcome to the PigLatin Cryptogram\nThis program is going to translate your message into pig Latin,\nthen it will encrypt the message into a Cryptogram.");
-Console.WriteLine("Please enter the message: ");
+Console.WriteLine("Welcome to the Pig Latin Cryptogram\nThis program is going to translate your message into pig Latin,\nthen it will encrypt the message into a Cryptogram.");
+Console.WriteLine("\nPlease enter the message: ");
 string? userMessage = Console.ReadLine().Trim('!','.');
 
 //string userMessage = userMessage.Trim('!','.');
 string[] userMessageArray = userMessage.Split(' ');
-string pigLatinTranslate = "";
+string pigLatinTranslate = ""; //madlibs
 //Console.WriteLine(userMessageArray);
-foreach (string word in userMessageArray)
+foreach (string word in userMessageArray) //chapter 12
 {
     string pigLatinWord;
-    string words = word.ToLower();
+    string words = word.ToLower(); //hw15
    
     if (vowels.Contains(words[0])) //|| consonantCluster != 0)
     {
@@ -30,15 +31,16 @@ foreach (string word in userMessageArray)
     }
     else
     {
-        int vowelCheck = words.IndexOfAny(vowels);
+        int vowelCheck = words.IndexOfAny(vowels); 
 
-        if (vowelCheck == -1)//(consonantCluster == 1)
+        if (vowelCheck == -1)//(consonantCluster == 1) //last hw
         {
             //pigLatinWord = enCode + "ay";
             pigLatinWord = words.Substring(1) + words[0] + "ay"; //this works for 'my' SAVANNA keep this code this is not the problem
         }
         else
         {
+            //hw 15
             string removal = words.Substring(vowelCheck); 
             string switchLetters = words.Substring(0, vowelCheck);
             //string pigLatin = "ay";
@@ -47,10 +49,31 @@ foreach (string word in userMessageArray)
     }
     pigLatinTranslate += pigLatinWord + " ";
 }
-Console.WriteLine(pigLatinTranslate.Trim());
-Random rand = new Random();
-int Offset = rand.Next(1,26);
-
+Console.WriteLine($"\nIn pig latin that's: {pigLatinTranslate.Trim()}");
+//Random rand = new Random();
+//string crypto = pigLatinTranslate;
+string crypto = "";
+//if (char.Contains(0,26))
+foreach (char c in pigLatinTranslate)
+{
+    //c = (char)((int)pigLatinTranslate + 5)
+    //offsetTranslation = (char)((int) offsetTranslation + 5);
+    char letter = c;
+    //string nonLetter = " ";
+    //if (letter != letter && nonLetter.Contains(" "))
+    //if (char.Equals(" "))
+    if (char.IsLetter(letter))//(nonLetter))
+    letter = (char)((int)letter + 5);
+    if(letter > 'z')
+    {
+        letter = (char)((int)letter - 26);
+    }
+    //char.Replace(crypto, letter)// += letter;
+    crypto += letter;
+}
+Console.WriteLine();
+Console.WriteLine($"We can encrypt that as: {crypto}");
+Console.WriteLine();
 
 
 //Console.WriteLine(pigLatinWord)
