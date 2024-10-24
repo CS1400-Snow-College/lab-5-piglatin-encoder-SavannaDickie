@@ -14,7 +14,7 @@ char[] vowels = {'a','e','i','o','u'};
 //char[] consonants = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'};
 Console.WriteLine("Welcome to the Pig Latin Cryptogram\nThis program is going to translate your message into pig Latin,\nthen it will encrypt the message into a Cryptogram.");
 Console.WriteLine("\nPlease enter the message: ");
-string? userMessage = Console.ReadLine().Trim('!','.');
+string? userMessage = Console.ReadLine().Trim('!','.'); 
 
 //string userMessage = userMessage.Trim('!','.');
 string[] userMessageArray = userMessage.Split(' ');
